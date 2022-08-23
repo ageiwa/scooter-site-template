@@ -133,6 +133,8 @@
     margin-top: 15px;
     margin-bottom: 15px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .order-form__submit {
