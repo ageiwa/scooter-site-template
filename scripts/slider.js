@@ -9,6 +9,6 @@ for (let i = 0; i < radioBtn.length; i++) {
         radioBtn[i].classList.add('slider__radio-btn_active');
 
         if (i === 0) slideContainer.style.left = '0';
-        else slideContainer.style.left = 'calc(-100%)';
+        else slideContainer.style.left = '-100%';
     })
 }

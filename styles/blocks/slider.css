@@ -26,14 +26,43 @@
     justify-content: space-between;
 }
 
-.slide-1__img {
+.slider__slide-2 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider__slide-2 .slider__text-container {
+    text-align: center;
+}
+
+.slider__btn-order {
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+    width: 165px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #FF7F57;
+}
+
+.slide-1__img, .slide-2__img {
     width: 100%;
     height: 100%;
-    background-image: url("../../img/Who-should-buy-an-electric-scooter.jpg");
     background-size: cover;
     background-position: center center;
     position: absolute;
     z-index: -1;
+}
+
+.slide-1__img {
+    background-image: url("../../img/Who-should-buy-an-electric-scooter.jpg");
+}
+
+.slide-2__img {
+    background-image: url("../../img/0x0.jpg");
 }
 
 .slider__img-overlay {
