@@ -6,9 +6,11 @@
 }
 
 .slider__slide-container {
+    left: 0;
     width: 200%;
     height: 100%;
     display: flex;
+    transition: .5s ease;
     position: absolute;
 }
 
