@@ -1,0 +1,84 @@
+.footer {
+    width: 100%;
+    min-height: 465px;
+    background-color: #202020;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__contacts-container {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__header-text {
+    margin-top: 30px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.map {
+    width: 400px;
+    height: 320px;
+    border-radius: 5px;
+    background-color: #FFFBF7;
+    overflow: hidden;
+}
+
+.contacts__item {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.contacts__icon {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background-size: 15px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.contacts-home {
+    background-image: url("../../img/home.png");
+}
+
+.contacts-tel {
+    background-image: url("../../img/tel.png");
+}
+
+.contacts-mail {
+    background-image: url("../../img/mail.png");
+}
+
+.contacts__text {
+    color: #FFFBF7;
+}
+
+.contacts__messengers {
+    display: flex;
+    cursor: pointer;
+}
+
+.contacts__messengers a {
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+
+.messengers__whatsup {
+    background-image: url("../../img/whatsup.png");
+}
+
+.messengers__viber {
+    background-image: url("../../img/viber1.png");
+}
