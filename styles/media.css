@@ -20,6 +20,24 @@
     .advantages__item-sub-text {
         font-size: 14px;
     }
+
+    .footer {
+        padding-bottom: 30px;
+        min-height: auto;
+    }
+
+    .map {
+        width: 320px;
+    }
+
+    .contacts {
+        margin-top: 45px;
+    }
+
+    .footer__contacts-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Medium devices (tablets, less than 992px)*/

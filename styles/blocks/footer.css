@@ -25,7 +25,7 @@
 }
 
 .map {
-    width: 400px;
+    width: 50%;
     height: 320px;
     border-radius: 5px;
     background-color: #FFFBF7;
@@ -35,13 +35,14 @@
 .contacts__item {
     margin-bottom: 30px;
     display: flex;
+    align-items: center;
 }
 
 .contacts__icon {
     margin-right: 10px;
-    width: 15px;
-    height: 15px;
-    background-size: 15px auto;
+    width: 24px;
+    height: 24px;
+    background-size: 24px auto;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -59,6 +60,7 @@
 }
 
 .contacts__text {
+    font-size: 24px;
     color: #FFFBF7;
 }
 
@@ -68,6 +70,7 @@
 }
 
 .contacts__messengers a {
+    margin-right: 15px;
     width: 40px;
     height: 40px;
     background-position: center center;
