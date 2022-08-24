@@ -62,12 +62,17 @@
     font-weight: 600;
 }
 
+.advantages__item-sub-text {
+    font-size: 18px;
+}
+
 .advantages__btn-order {
     margin-top: 65px;
+    margin-bottom: 30px;
     border: none;
     border-radius: 20px;
     width: 165px;
-    height: 40px;
+    min-height: 40px;
     font-size: 18px;
     color: #fff;
     background-color: #FF7F57;

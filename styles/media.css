@@ -1,12 +1,24 @@
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-
+    .advantages__item-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 50px;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
     .slider__order-form {
         display: none;
+    }
+
+    .advantages__item-header-text {
+        font-size: 18px;
+    }
+
+    .advantages__item-sub-text {
+        font-size: 14px;
     }
 }
 
@@ -28,6 +40,10 @@
 
     .header__popup-menu-container {
         display: block;
+    }
+
+    .advantages {
+        height: auto;
     }
 }
 
